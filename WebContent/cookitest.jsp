@@ -13,8 +13,6 @@
 	String PsswordValue="";
 	Cookie[] cs=request.getCookies();/*获取后台的Cookie*/
 	
-	
-	
 	if(cs!=null){
 		
 		for(int i=0;i<cs.length;i++){
